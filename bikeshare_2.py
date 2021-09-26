@@ -29,7 +29,7 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month = input("\nType the month you would like to filter (from January to June), if you do not have any preference please type 'all' \n")
+        month = input("\nWhich month would you like to consult from January to June?.\nIf you do not have any preference please type 'all' \n")
         month = month.lower()
         if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             break
