@@ -18,3 +18,4 @@ bikeshare_2.py
 ### Credits
 .git ignore information: https://swcarpentry.github.io/git-novice-es/06-ignore/ .\n
 .iloc function used for python coding: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.iloc.html .\n
+Funtions in python: https://www.w3schools.com/python/python_functions.asp.\n
