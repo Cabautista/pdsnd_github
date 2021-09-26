@@ -1,17 +1,19 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+September/25/2021
 
 ### Project Title
-Replace the Project Title
+Post your work on Github: Bikeshare project.
 
 ### Description
-Describe what your project is about and what it does
+This project presents the knowledge acquired in the "Introduction to Version Control" class for Udacity's nanodegree program using as example the Bikeshare project crated for "Introduction to Python".
 
 ### Files used
-Include the files used
+chicago.csv
+washington.csv
+new_york_city.csv
+bikeshare_2.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+.git ignore information: https://swcarpentry.github.io/git-novice-es/06-ignore/ .\n
