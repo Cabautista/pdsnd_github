@@ -184,11 +184,11 @@ def user_stats(df, city):
     print('-'*40)
     start_loc = 0
     while True:
-        view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no?")
+        view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no?.\n")
         if view_data.lower() == 'yes':
             print(df.iloc[start_loc:start_loc+5])
             start_loc += 5
-            view_display = input("Do you wish to continue?: ").lower()
+            view_display = input("Do you wish to continue?: .\n").lower()
         else:
             break
 
