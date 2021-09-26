@@ -29,7 +29,7 @@ def get_filters():
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month = input("\nType the month you would like to filter (from January to June), if you do not have any preference please type 'all' \n")
+        month = input("\nWhich month would you like to consult from January to June?.\nIf you do not have any preference please type 'all' \n")
         month = month.lower()
         if month in ['january', 'february', 'march', 'april', 'may', 'june', 'all']:
             break
@@ -37,7 +37,7 @@ def get_filters():
             print("Please try again, the input is not valid")
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = input("\nType de day you would like to filter, if you do not have any preference please type 'all' \n")
+        day = input("\nWhich day would you like to consult?.\nIf you do not have any preference please type 'all' \n")
         day = day.lower()
         if day in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
             break
@@ -184,11 +184,11 @@ def user_stats(df, city):
     print('-'*40)
     start_loc = 0
     while True:
-        view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no?")
+        view_data = input("Would you like to view 5 rows of individual trip data? Enter yes or no?.\n")
         if view_data.lower() == 'yes':
             print(df.iloc[start_loc:start_loc+5])
             start_loc += 5
-            view_display = input("Do you wish to continue?: ").lower()
+            view_display = input("Do you wish to continue?: .\n").lower()
         else:
             break
 
